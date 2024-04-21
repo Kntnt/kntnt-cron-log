@@ -13,7 +13,7 @@
  */
 
 
-add_filter( 'pre_get_ready_cron_jobs', function( $dummy) {
+add_filter( 'pre_get_ready_cron_jobs', function( $dummy ) {
 
 	static $is_first_call = true;
 
